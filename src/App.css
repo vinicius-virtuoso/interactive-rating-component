@@ -24,7 +24,8 @@ h4,
 h5,
 h6,
 span,
-button {
+button,
+a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -34,11 +35,23 @@ button {
   width: 100%;
   min-height: 100vh;
   background: var(--Very-Dark-Blue);
-  display: grid;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 20px;
+  gap: 20px;
 }
 img {
   display: block;
   max-width: 100%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: var(--fml);
+  color: var(--White);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

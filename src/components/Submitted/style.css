@@ -6,6 +6,8 @@
   height: 100%;
   padding: 10px 10px;
   gap: 20px;
+  opacity: 0;
+  animation: fade 0.7s ease-in-out forwards;
 }
 .img-thank {
   width: 100%;
@@ -34,4 +36,12 @@
   font-weight: 400;
   color: var(--Light-Grey);
   text-align: center;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
