@@ -1,0 +1,22 @@
+.btn {
+  width: 55px;
+  height: 55px;
+  background: var(--Opacity);
+  border-radius: 50%;
+  border: 0;
+  font-size: 18px;
+  color: var(--White);
+  font-family: var(--fml);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background: var(--Orange);
+}
+.btn.active {
+  background: var(--Light-Grey);
+}
